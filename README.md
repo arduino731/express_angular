@@ -49,9 +49,8 @@ when you are done with bower install
 go back cd ..
 and npm start or npm server to start web server
 
-using the bootsnipp.com and bootstrap example templates 
+go to bootsnipp.com or bootstrap.com use their example templates 
 
 http://getbootstrap.com/examples/carousel/
-
 
 http://getbootstrap.com/examples/offcanvas/
