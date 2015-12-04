@@ -50,5 +50,8 @@ go back cd ..
 and npm start or npm server to start web server
 
 using the bootsnipp.com and bootstrap example templates 
+
 http://getbootstrap.com/examples/carousel/
+
+
 http://getbootstrap.com/examples/offcanvas/
