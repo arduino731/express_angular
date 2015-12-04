@@ -1,7 +1,7 @@
 # express_angular
-express web application for angular and bower_bower_components ngRoute 
+express web application for angular, bower_bower_components and ngRoute 
 
-when i open up new cloud 9 how do I get start quicker. 
+How to get started. web server application
 
 $npm init 
 it will said 
@@ -11,11 +11,8 @@ keywords: (enter)
 license: (enter)
 is that ok? (enter)
 
-
-open the file node_modules and delete socketio folder 
-
 server.js
-```
+<code>
 var http = require('http');
 var path = require('path');
 var async = require('async');
@@ -23,21 +20,17 @@ var express = require('express');
 var router = express();
 var server = http.createServer(router);
 
-router.use(express.static(path.resolve(__dirname, 'client')));
+router.use(express.static(path.resolve(__dirname, 'public')));
 
 server.listen(process.env.PORT || 3000, process.env.IP );
 console.log("Localhost listening on port at " + 3000);
-```
+</code
 
 $ npm install express
 $ npm install async
 $ npm install -g bower (bower.io) 
-
-
-deleted css folder not important. 
-you will always want ui-router, not ng-route, why here is explaination... 
  
-$ cd mkdir client
+$ cd mkdir public
 $ cd client
 
 it will create new folder bower_components 
@@ -56,8 +49,6 @@ when you are done with bower install
 go back cd ..
 and npm start or npm server to start web server
 
-create a new folder views, common, header.html, index1.html, and app.js 
-
-using the bootsnipp.com and bootstrap example template 
+using the bootsnipp.com and bootstrap example templates 
 http://getbootstrap.com/examples/carousel/
 http://getbootstrap.com/examples/offcanvas/
