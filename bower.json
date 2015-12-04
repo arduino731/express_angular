@@ -1,0 +1,14 @@
+{
+  "name": "angularjs222",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Brian van vlymen"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "dependencies": {
+    "angular": "~1.4.5"
+  }
+}
