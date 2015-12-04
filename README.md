@@ -25,7 +25,7 @@ router.use(express.static(path.resolve(__dirname, 'public')));
 server.listen(process.env.PORT || 3000, process.env.IP );
 console.log("Localhost listening on port at " + 3000);
 ```
-
+```
 $ npm install express
 $ npm install async
 $ npm install -g bower (bower.io) 
@@ -43,7 +43,7 @@ either one
 $bower install angular-ui-router ['ui.router']
 or 
 $bower install angular-route  ['ngRoute']
-
+```
 
 when you are done with bower install 
 go back cd ..
