@@ -24,7 +24,7 @@ router.use(express.static(path.resolve(__dirname, 'public')));
 
 server.listen(process.env.PORT || 3000, process.env.IP );
 console.log("Localhost listening on port at " + 3000);
-</code
+</code>
 
 $ npm install express
 $ npm install async
